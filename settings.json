@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -40,13 +41,19 @@
         "list": 
         [
             {
-                "commandline": "powershell.exe",
+                "bellStyle": "none",
+                "colorScheme": "Gruvbox",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JuliaMono",
+                    "size": 13
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -64,9 +71,10 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "UbuntuMono NF",
+                    "face": "JuliaMono",
                     "size": 13
                 },
+                "guid": "{33c4d14a-b9f9-5db2-8351-0ac720addc6e}",
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git-bash",
                 "startingDirectory": "%USERPROFILE%"
@@ -77,7 +85,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "Ubuntu Mono",
+                    "face": "JuliaMono",
                     "size": 13
                 },
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
@@ -90,6 +98,36 @@
                 "guid": "{df116cda-de0f-4d5f-9e1d-f88c1bc8856d}",
                 "name": "nushell",
                 "startingDirectory": "C:\\Users\\erietz"
+            },
+            {
+                "guid": "{092b7d43-9aea-567c-8872-3c0111434c67}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{8d2209e3-d2ba-574c-a99e-3162e305419b}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2f0d21cc-3b5d-5e95-9383-4c9b3570821d}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{335cc82d-f2a2-522b-993f-e76c55ee1f1a}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
@@ -140,6 +178,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#282828",
+            "black": "#504945",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#EBDBB2",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "Gruvbox",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#32FFF6",
+            "white": "#A89984",
+            "yellow": "#D79921"
         },
         {
             "background": "#282C34",
@@ -301,29 +362,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#282828",
-            "black": "#504945",
-            "blue": "#458588",
-            "brightBlack": "#928374",
-            "brightBlue": "#83A598",
-            "brightCyan": "#8EC07C",
-            "brightGreen": "#B8BB26",
-            "brightPurple": "#D3869B",
-            "brightRed": "#FB4934",
-            "brightWhite": "#EBDBB2",
-            "brightYellow": "#FABD2F",
-            "cursorColor": "#EBDBB2",
-            "cyan": "#689D6A",
-            "foreground": "#EBDBB2",
-            "green": "#98971A",
-            "name": "Gruvbox",
-            "purple": "#B16286",
-            "red": "#CC241D",
-            "selectionBackground": "#32FFF6",
-            "white": "#A89984",
-            "yellow": "#D79921"
         }
     ]
 }
