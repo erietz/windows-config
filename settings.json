@@ -12,12 +12,12 @@
             "keys": "ctrl+shift+c"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -36,7 +36,12 @@
     {
         "defaults": 
         {
-            "colorScheme": "Campbell"
+            "colorScheme": "Gruvbox",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Fira Code"
+            }
         },
         "list": 
         [
@@ -71,7 +76,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "JuliaMono",
+                    "face": "Fira Code",
                     "size": 13
                 },
                 "guid": "{33c4d14a-b9f9-5db2-8351-0ac720addc6e}",
@@ -100,18 +105,6 @@
                 "startingDirectory": "C:\\Users\\erietz"
             },
             {
-                "guid": "{092b7d43-9aea-567c-8872-3c0111434c67}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{8d2209e3-d2ba-574c-a99e-3162e305419b}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
                 "guid": "{2f0d21cc-3b5d-5e95-9383-4c9b3570821d}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
@@ -128,6 +121,19 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "colorScheme": "Gruvbox",
+                "commandline": "C:\\tools\\cygwin\\bin\\bash.exe -i -l",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrains Mono"
+                },
+                "guid": "{cb167cd7-ccc9-44a8-8159-005b4cfa3ab0}",
+                "hidden": false,
+                "name": "Cygwin",
+                "startingDirectory": "C:\\Users\\erietz"
             }
         ]
     },
