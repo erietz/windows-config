@@ -1,0 +1,33 @@
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+let mapleader="\<space>"
+
+nnoremap gr :vsc Edit.FindAllReferences<CR>
+nnoremap gk :vsc Edit.PeekDefinition<CR>
+nnoremap gi :vsc Edit.GoToImplementation<CR>
+
+nnoremap ]q :vsc View.NextError<CR>
+nnoremap [q :vsc View.PreviousError<CR>
+
+
+nnoremap <c-o> :vsc View.NavigateBackward<CR>
+nnoremap <c-i> :vsc View.NavigateForward<CR>
+
+vnoremap <leader>y "+y
+
+" nnoremap <leader><leader> :vsc Edit.GoToRecentFile<CR>
+nnoremap <leader><CR> :vsc Edit.GoToFile<CR>
+nnoremap <leader><Tab> :vsc Edit.GoToRecentFile<CR>
+
+nnoremap <leader>to :vsc TestExplorer.ShowTestExplorer<CR>
+nnoremap <leader>ta :vsc TestExplorer.RunAllTests<CR>
+nnoremap <leader>tn :vsc TestExplorer.RunAllTestsInContext<CR>
+nnoremap <leader>dn :vsc TestExplorer.DebugAllTestsInContext<CR>
+nnoremap <leader>dl :vsc TestExplorer.DebugLastRun<CR>
+nnoremap <leader>tv :vsc TestExplorer.RunAllTestsInView<CR>
+
+nnoremap <leader>c :vsc Window.AutoHideAll<CR>
+nnoremap ZA :vsc Window.CloseAllDocuments<CR>

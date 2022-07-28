@@ -40,7 +40,7 @@
             "cursorShape": "filledBox",
             "font": 
             {
-                "face": "Fira Code"
+                "face": "JetBrains Mono"
             }
         },
         "list": 
@@ -76,7 +76,7 @@
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "Fira Code",
+                    "face": "JetBrains Mono",
                     "size": 13
                 },
                 "guid": "{33c4d14a-b9f9-5db2-8351-0ac720addc6e}",
